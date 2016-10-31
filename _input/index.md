@@ -44,6 +44,8 @@ profile page](https://linkedin.com/in/phretor).
 <p class="text-right">Got to the full [list of publications &raquo;](/publications)</p>
 
 ## Selected Talks
+[@mavroudis_silverdogbh_talk_2016]
+
 [@maggi_greateatlonbheu_talk_2016]
 
 [@maggi_droydseuss_talk_2015]

@@ -13,6 +13,8 @@ of the slide decks as well.
 Download [talks.bib](https://github.com/phretor/publications/raw/master/talks.bib)
 </p>
 
+[@mavroudis_silverdogbh_talk_2016]
+
 [@maggi_greateatlonbheu_talk_2016]
 
 [@maggi_banksealer_talk_2016]
