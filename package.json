@@ -1,0 +1,16 @@
+{
+  "name": "maggicc",
+  "version": "1.0.0",
+  "description": "maggi.cc",
+  "author": "Federico Maggi",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "skeleton-scss": "^2.0.4"
+  },
+  "devDependencies": {
+    "browserify": "^13.1.0",
+    "node-sass": "^3.10.1",
+    "uglify": "^0.1.5"
+  }
+}

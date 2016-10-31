@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="$lang$">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>$title$</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    $if(description)$<meta name="description" content="$description$">$endif$
+    $if(author)$<meta name="author" content="$author$">$endif$
+
+    $if(url)$<link rel="canonical" href="$url$">$endif$
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="$static$/css/app.css" type="text/css">
+
+    <!-- Icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="$static$/i/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="$static$/i/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="$static$/i/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="$static$/i/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="$static$/i/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="$static$/i/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="$static$/i/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="$static$/i/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="$static$/i/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="$static$/i/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="$static$/i/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="$static$/i/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="$static$/i/favicon-128.png" sizes="128x128" />
+    <meta name="msapplication-TileImage" content="$static$/i/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="$static$/i/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="$static$/i/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="$static$/i/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="$static$/i/mstile-310x310.png" />
+  </head>
+
+  <body>
+    <div class="container">
+      <!--header/-->
+      <header>
+        <div class="row">
+          <div class="twelve columns">
+            <h1 class="text-center pale">$title$</h1>
+          </div>
+
+        <div class="row" style="margin-top: 20%">
+          <div class="twelve columns">
+            <nav class="text-center">
+              <a href="/">Home</a> ·
+              <a href="/about/">About</a> ·
+              <a href="/publications/">Publications</a> ·
+              <a href="/talks/">Talks</a> ·
+              <a href="/contacts/">Contacts</a>
+            </nav>
+          </div>
+
+          <hr class="eight offset-by-two columns" />
+        </div>
+
+        <div class="row">
+          <div class="twelve columns text-center">
+            $if(github)$<a class="fa fa-github" href="https://github.com/$social.github$"></a>$endif$
+            $if(bitbucket)$<a class="fa fa-bitbucket" href="https://bitbucket.org/$social.bitbucket$"></a>$endif$
+            $if(twitter)$<a class="fa fa-twitter" href="https://twitter.com/$social.twitter$"></a>$endif$
+            $if(linkedin)$<a class="fa fa-linkedin" href="https://www.linkedin.com/in/$social.linkedin$"></a>$endif$
+            $if(email)$<a class="fa fa-envelope" href="mailto:$email$"></a>$endif$
+          </div>
+        </div>
+      </header>
+      <!--/header-->
+
+      <!--before-->
+      $for(include-before)$
+      $include-before$
+      $endfor$
+      <!--/before-->
+
+      <!--body-->
+      $body$
+      <!--/body-->
+
+      <!--after-->
+      $for(include-after)$
+      $include-after$
+      $endfor$
+      <!--/after-->
+
+      <footer style="margin-bottom: 10%;">
+        <div class="row">
+          <div class="twelve columns text-center">
+            <hr />
+
+            <small class="pale">
+              &copy;$copyright_since$–$current_year$. All rights are reserved
+              to $title$ or the respective authors.
+
+              <br />
+
+              <em>Opinions are my own, and not necessarily reflecting the views of my employer. </em>
+            </small>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="$static$/js/app.js"></script>
+  </body>
+</html>
