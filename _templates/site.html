@@ -54,19 +54,17 @@
               <a href="/talks/">Talks</a> ·
               <a href="/contacts/">Contacts</a>
             </nav>
+
+            <div id="social-links" class="text-center">
+              $if(github)$<a class="fa fa-github" href="https://github.com/$social.github$"></a>$endif$
+              $if(bitbucket)$<a class="fa fa-bitbucket" href="https://bitbucket.org/$social.bitbucket$"></a>$endif$
+              $if(twitter)$<a class="fa fa-twitter" href="https://twitter.com/$social.twitter$"></a>$endif$
+              $if(linkedin)$<a class="fa fa-linkedin" href="https://www.linkedin.com/in/$social.linkedin$"></a>$endif$
+              $if(email)$<a class="fa fa-envelope" href="mailto:$email$"></a>$endif$
+            </div>
           </div>
 
           <hr class="eight offset-by-two columns" />
-        </div>
-
-        <div class="row">
-          <div class="twelve columns text-center">
-            $if(github)$<a class="fa fa-github" href="https://github.com/$social.github$"></a>$endif$
-            $if(bitbucket)$<a class="fa fa-bitbucket" href="https://bitbucket.org/$social.bitbucket$"></a>$endif$
-            $if(twitter)$<a class="fa fa-twitter" href="https://twitter.com/$social.twitter$"></a>$endif$
-            $if(linkedin)$<a class="fa fa-linkedin" href="https://www.linkedin.com/in/$social.linkedin$"></a>$endif$
-            $if(email)$<a class="fa fa-envelope" href="mailto:$email$"></a>$endif$
-          </div>
         </div>
       </header>
       <!--/header-->
@@ -110,5 +108,15 @@
     </div>
 
     <script src="$static$/js/app.js"></script>
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+					m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+			ga('create', "$google_analyitics_id$", 'auto');
+			ga('send', 'pageview');
+
+		</script>
   </body>
 </html>

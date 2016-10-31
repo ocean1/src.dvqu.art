@@ -66,9 +66,10 @@ cp -R $STATIC $OUTDIR/s
 
 # Build frontend kit
 echo "[+] Building frontend files..."
-mkdir $OUTDIR/s/{css,js}
+mkdir $OUTDIR/s/{css,js,fonts}
+cp -R $NODE_MODULES/lato-font/fonts/* $OUTDIR/s/fonts/
+cp -R $NODE_MODULES/font-awesome/fonts/* $OUTDIR/s/fonts/
 browserify _src/js/app.js | uglifyjs -o $OUTDIR/s/js/app.js
-cp -R $NODE_MODULES/lato-font $OUTDIR/s/
 node-sass --output-style compressed --include-path $NODE_MODULES _src/css/app.scss > $OUTDIR/s/css/app.css
 
 # add CNAME
