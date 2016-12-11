@@ -31,11 +31,9 @@ More details can be found in my [CV](http://cv.maggi.cc) or at my [LinkedIn
 profile page](https://linkedin.com/in/phretor).
 
 ## Selected Publications
-[@zheng_openst_2016]
+[@continella_shieldfs_2016]
 
 [@mambretti_trellis_2016]
-
-[@coletta_droydseuss_2016]
 
 [@falsina_grabnrun_2015]
 
@@ -55,7 +53,5 @@ profile page](https://linkedin.com/in/phretor).
 [@maggi_phoenixgoogle_talk_2014]
 
 [@maggi_longshore_talk_2012]
-
-[@maggi_isnoop_talk_2011]
 
 <p class="text-right">Got to the full [list of talks &raquo;](/talks)</p>
