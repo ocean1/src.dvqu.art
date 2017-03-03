@@ -13,6 +13,8 @@ PDFs as well.
 Download [papers.bib](https://github.com/phretor/publications/raw/master/papers.bib)
 </p>
 
+[@quarta_robosec_2017]
+
 [@continella_shieldfs_2016]
 
 [@zheng_openst_2016]

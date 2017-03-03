@@ -31,13 +31,11 @@ More details can be found in my [CV](http://cv.maggi.cc) or at my [LinkedIn
 profile page](https://linkedin.com/in/phretor).
 
 ## Selected Publications
+[@quarta_robosec_2017]
+
 [@continella_shieldfs_2016]
 
 [@mambretti_trellis_2016]
-
-[@falsina_grabnrun_2015]
-
-[@andronio_heldroid_2015]
 
 <p class="text-right">Got to the full [list of publications &raquo;](/publications)</p>
 
