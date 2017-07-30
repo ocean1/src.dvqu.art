@@ -12,14 +12,14 @@ SpyEye malware creator](http://blog.trendmicro.com/spyeye-arrest/), which is
 believed to have infected an estimated 1.4 million computers in the United
 States and abroad.
 
-I have been involved in computer security since 2005. Although I enjoy doing
-research in really any area of computer security, looking back at my research
-track it seems that my main interests revolve around various topics under the
-“cyber security” and "cyber crime" umbrella terms, such as threat analysis and
-intelligence, malware analysis, mobile security, fraud analysis and detection,
-web- and social-network security and data visualization. A distinctive aspect
-of my work is that I always strive to follow data-driven or learning-based
-approaches. Indeed, I enjoy doing large-scale measurements.
+I have been involved in the computer security “circus” since 2005. Although
+I enjoy doing research in really any area of computer security, looking back at
+my research track it seems that my main interests revolve around various topics
+under the “cyber security” and "cyber crime" umbrella terms, such as threat
+analysis and intelligence, malware analysis, mobile security, fraud analysis
+and detection, web- and social-network security and data visualization.
+A distinctive aspect of my work is that I always strive to follow data-driven
+or learning-based approaches. Indeed, I enjoy doing large-scale measurements.
 
 Before joining Trend Micro, until Summer 2016 I was an Assistant Professor at
 [Dipartimento di Elettronica, Informazione e Bioingegneria

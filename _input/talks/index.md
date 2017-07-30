@@ -13,6 +13,12 @@ of the slide decks as well.
 Download [talks.bib](https://github.com/phretor/publications/raw/master/talks.bib)
 </p>
 
+[@balduzzi_defplorexbhus_talk_2017]
+
+[@quarta_robosecbhus_talk_2017]
+
+[@continella_shieldfsbhus_talk_2017]
+
 [@mavroudis_silverdogbh_talk_2016]
 
 [@maggi_greateatlonbheu_talk_2016]

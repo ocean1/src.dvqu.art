@@ -10,10 +10,10 @@ elite team of researchers whose mission is to fighting against cyber criminals
 and scouting the future of emerging technologies, striving to predict and
 prevent emerging security risks and threats.
 
-My research interests, mainly developed during my MSc and PhD, revolve around
-various topics under the “cyber security” and “cyber crime” umbrella terms,
-including threat analysis, malware analysis, mobile security, financial fraud
-analysis and detection, web- and social-network security and data analysis.
+My research interests, mainly rooted in MSc and PhD, revolve around various
+topics under the “cyber security” and “cyber crime” umbrella terms, including
+threat analysis, malware analysis, mobile security, financial fraud analysis
+and detection, web- and social-network security and data analysis.
 
 Before joining Trend Micro, I was an Assistant Professor at
 [Dipartimento di Elettronica, Informazione e Bioingegneria
@@ -40,16 +40,16 @@ profile page](https://linkedin.com/in/phretor).
 <p class="text-right">Got to the full [list of publications &raquo;](/publications)</p>
 
 ## Selected Talks
+[@quarta_robosecbhus_talk_2017]
+
+[@continella_shieldfsbhus_talk_2017]
+
+[@balduzzi_defplorexbhus_talk_2017]
+
 [@mavroudis_silverdogbh_talk_2016]
 
 [@maggi_greateatlonbheu_talk_2016]
 
-[@maggi_droydseuss_talk_2015]
-
-[@maggi_androidre_talk_2014]
-
 [@maggi_phoenixgoogle_talk_2014]
-
-[@maggi_longshore_talk_2012]
 
 <p class="text-right">Got to the full [list of talks &raquo;](/talks)</p>
