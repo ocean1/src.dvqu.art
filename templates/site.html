@@ -4,11 +4,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>$title$</title>
+    <title>$title$$if(author)$ - by $for(author)$$author$$sep$, $endfor$$else$ - $default_author$$endif$</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     $if(description)$<meta name="description" content="$description$">$endif$
-    $if(author)$<meta name="author" content="$author$">$endif$
+    <meta name="author" content="$if(author)$$for(author)$$author$$sep$, $endfor$$else$$default_author$$endif$">
 
     $if(url)$<link rel="canonical" href="$url$">$endif$
 
@@ -56,11 +56,10 @@
             </nav>
 
             <div id="social-links" class="text-center">
-              $if(github)$<a class="fa fa-github" href="https://github.com/$social.github$"></a>$endif$
-              $if(bitbucket)$<a class="fa fa-bitbucket" href="https://bitbucket.org/$social.bitbucket$"></a>$endif$
-              $if(twitter)$<a class="fa fa-twitter" href="https://twitter.com/$social.twitter$"></a>$endif$
-              $if(linkedin)$<a class="fa fa-linkedin" href="https://www.linkedin.com/in/$social.linkedin$"></a>$endif$
-              $if(email)$<a class="fa fa-envelope" href="mailto:$email$"></a>$endif$
+              $if(github)$<a class="fa fa-github" href="https://github.com/$github$"></a>$endif$
+              $if(twitter)$<a class="fa fa-twitter" href="https://twitter.com/$twitter$"></a>$endif$
+              $if(linkedin)$<a class="fa fa-linkedin" href="https://www.linkedin.com/in/$linkedin$"></a>$endif$
+              $if(email)$<a class="fa fa-envelope" href="$email$"></a>$endif$
             </div>
           </div>
 
@@ -92,7 +91,7 @@
 
             <small class="pale">
               &copy;$copyright_since$–$current_year$. All rights are reserved
-              to $title$ or the respective authors.
+              to $default_author$ or the respective authors.
 
               <br />
 

@@ -1,4 +1,5 @@
 ---
+title: Federico Maggi
 bibliography: _data/publications/publications.bib
 csl: _style/csl/publications.csl
 ---

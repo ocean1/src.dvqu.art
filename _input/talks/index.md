@@ -1,4 +1,5 @@
 ---
+title: Talks
 bibliography: _data/publications/talks.bib
 csl: _style/csl/publications.csl
 ---
@@ -8,7 +9,6 @@ file](https://github.com/phretor/publications/raw/master/talks.bib), or [clone
 the repository](https://github.com/phretor/publications) containing the PDFs
 of the slide decks as well.
 
-# Talks
 <p class="text-right">
 Download [talks.bib](https://github.com/phretor/publications/raw/master/talks.bib)
 </p>

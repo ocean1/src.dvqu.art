@@ -41,7 +41,7 @@
   </macro>
   <macro name="title">
     <choose>
-      <if type="bill book graphic legal_case legislation motion_picture report song thesis" match="any">
+      <if type="bill book graphic legal_case legislation motion_picture song" match="any">
         <text text-case="title" variable="title" font-style="italic"/>
       </if>
       <else>
@@ -120,7 +120,7 @@
         <if type="bill book graphic legal_case legislation motion_picture report song" match="any">
           <group prefix=" " delimiter=" " suffix=",">
             <text macro="title"/>
-            <text macro="author" font-variant="normal" suffix="."/>
+            <text display="block" macro="author" font-variant="normal" suffix="."/>
 
             <text macro="edition"/>
             <text macro="editor"/>
@@ -130,7 +130,7 @@
 
         <else-if type="chapter paper-conference" match="any">
           <text macro="title"/>
-          <text macro="author" font-variant="normal" suffix="."/>
+          <text display="block" macro="author" font-variant="normal" suffix="."/>
           <group prefix=" " delimiter=" ">
             <text term="in" text-case="capitalize-first"/>
             <text macro="editor"/>

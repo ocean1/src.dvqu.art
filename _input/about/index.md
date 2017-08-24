@@ -1,4 +1,6 @@
-# About me
+---
+title: About me
+---
 
 I am a Senior Threat Researcher with [Trend Micro’s Forward-Looking Threat
 Research (FTR)

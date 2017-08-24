@@ -4,15 +4,18 @@ CNAME="maggi.cc"
 INDIR="./_input"
 OUTDIR="./_output"
 STATIC="./_static"
+DATA_DIR="./"
 PUBLICATIONS="./_data/publications"
 NODE_MODULES="./node_modules"
 SRC="./_src"
 METADATA="./metadata.yml" # TODO parse static dir from metadata
+default_template="site"
 PANOPTS="\
   --smart \
   --metadata=current_year:`date +%Y` \
   --standalone \
-  --template=_templates/site.html"
+  --template=${default_template} \
+  --data-dir=${DATA_DIR}"
 
 rm -rf $OUTDIR/*
 
@@ -21,11 +24,11 @@ echo "[+] Processing sections..."
 find $INDIR -type f -mindepth 2 -name 'index.md' | \
   while read f
   do
-    parent=$(basename $(dirname ${f}))
+    parent=$(dirname $(realpath --relative-to ${INDIR} ${f}))
     DST=$OUTDIR/${parent}
     mkdir -p $DST
 
-    if grep -q 'bibliography' ${f}
+    if grep -qE '^bibliography\:' ${f}
     then
       OPTS="$PANOPTS \
         --filter pandoc-citeproc"
@@ -40,7 +43,7 @@ find $INDIR -type f -mindepth 2 -name 'index.md' | \
       ${f} \
       -o $DST/index.html
 
-    if grep -q 'bibliography' ${f}
+    if grep -qE '^bibliography\:' ${f}
     then
       sed -E 's/(https\:\/\/github\.com\/phretor\/publications\/[^.]+\.pdf)/ [<a href="\1" class="download-pdf">PDF<\/a>]/g' \
         $DST/index.html > $DST/.index.html

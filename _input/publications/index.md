@@ -1,4 +1,5 @@
 ---
+title: Publications
 bibliography: _data/publications/publications.bib
 csl: _style/csl/publications.csl
 ---
@@ -8,7 +9,7 @@ file](https://github.com/phretor/publications/raw/master/publications.bib), or [
 repository](https://github.com/phretor/publications) containing the
 PDFs as well.
 
-# Conference Papers
+## Conference Papers
 <p class="text-right">
 Download [papers.bib](https://github.com/phretor/publications/raw/master/papers.bib)
 </p>
@@ -84,10 +85,14 @@ Download [papers.bib](https://github.com/phretor/publications/raw/master/papers.
 [@maggi_alertcorrelation_2007]
 
 
-# Workshop Papers
+## Workshop Papers
 <p class="text-right">
 Download [workshops.bib](https://github.com/phretor/publications/raw/master/workshops.bib)
 </p>
+
+[@unruh_joernphp_2017]
+
+[@shastry_hybridstaticfuzzing_2017]
 
 [@polakis_osnresearch_2014]
 
@@ -98,9 +103,9 @@ Download [workshops.bib](https://github.com/phretor/publications/raw/master/work
 [@maggi_phonephishinghoneypot_2011]
 
 
-# Journal Papers
+## Journal Papers
 <p class="text-right">
-[journals.bib](https://github.com/phretor/publications/raw/master/journals.bib)
+Download [journals.bib](https://github.com/phretor/publications/raw/master/journals.bib)
 </p>
 [@valdi_andrototal_article_2015]
 
@@ -117,9 +122,9 @@ Download [workshops.bib](https://github.com/phretor/publications/raw/master/work
 [@maggi_antiforensics_article_2008]
 
 
-# Technical Reports
+## Technical Reports
 <p class="text-right">
-[reports.bib](https://github.com/phretor/publications/raw/master/reports.bib)
+Download [reports.bib](https://github.com/phretor/publications/raw/master/reports.bib)
 </p>
 [@maggi_eusyssec_tr_2015]
 
@@ -140,9 +145,9 @@ Download [workshops.bib](https://github.com/phretor/publications/raw/master/work
 [@maggi_recordmatching_tr_2008]
 
 
-# Dissertations
+## Dissertations
 <p class="text-right">
-[dissertations.bib](https://github.com/phretor/publications/raw/master/dissertations.bib)
+Download [dissertations.bib](https://github.com/phretor/publications/raw/master/dissertations.bib)
 </p>
 [@maggi_phdthesis_2010]
 
