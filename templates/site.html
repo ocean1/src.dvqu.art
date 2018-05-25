@@ -49,9 +49,11 @@
           <div class="twelve columns">
             <nav class="text-center">
               <a href="/">Home</a> ·
-              <a href="/about/">About</a> ·
+              <a href="/diary/">Diary</a> ·
               <a href="/publications/">Publications</a> ·
               <a href="/talks/">Talks</a> ·
+              <a href="/about/">Bio</a> ·
+              <a href="/cv/">CV</a> ·
               <a href="/contacts/">Contacts</a>
             </nav>
 
@@ -66,23 +68,30 @@
           <hr class="eight offset-by-two columns" />
         </div>
       </header>
-      <!--/header-->
 
-      <!--before-->
       $for(include-before)$
       $include-before$
       $endfor$
-      <!--/before-->
 
-      <!--body-->
+      $if(date)$
+      <p>
+          <em>Published on: $date$</em>
+      </p>
+      $endif$
+
+      $if(short)$
+      <div class="tldr"><strong>TL;DR:</strong> $short$</div>
+
+      <hr />
+      $endif$
+
       $body$
-      <!--/body-->
 
-      <!--after-->
+      <p style="text-align: right;">$for(tags)$ <em>#$tags$</em> $endfor$</p>
+
       $for(include-after)$
       $include-after$
       $endfor$
-      <!--/after-->
 
       <footer style="margin-bottom: 10%;">
         <div class="row">
@@ -99,7 +108,7 @@
 
               <br />
 
-              <a href="https://github.com/phretor/src.maggi.cc/blob/master/README.md">Colophon</a>
+              Updated on $updated_on$ - <a href="https://github.com/phretor/src.maggi.cc/blob/master/README.md">Colophon</a>
             </small>
           </div>
         </div>
