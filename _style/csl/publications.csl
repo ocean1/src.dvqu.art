@@ -202,9 +202,9 @@
       </choose>
 
       <date variable="issued" prefix=" (" suffix=")">
-        <date-part name="month" />
+        <date-part name="month" suffix=" " />
         <date-part name="day" prefix=" " suffix=", " />
-        <date-part name="year" prefix=" " />
+        <date-part name="year" />
       </date>
       <group prefix=" - Link: ">
         <text variable="URL"/>
