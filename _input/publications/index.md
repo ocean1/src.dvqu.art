@@ -14,9 +14,19 @@ PDFs as well.
 Download [papers.bib](https://github.com/phretor/publications/raw/master/papers.bib)
 </p>
 
+[@zarras_sqlbot_2017]
+
+[@shastry_hybridstaticfuzzing_2017]
+
+[@unruh_joernphp_2017]
+
 [@quarta_robosec_2017]
 
+[@palanca_candos_2017]
+
 [@continella_shieldfs_2016]
+
+[@zheng_greateatlon_2016]
 
 [@zheng_openst_2016]
 
