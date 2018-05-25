@@ -8,57 +8,132 @@ DATA_DIR="./"
 PUBLICATIONS="./_data/publications"
 NODE_MODULES="./node_modules"
 SRC="./_src"
-METADATA="./metadata.yml" # TODO parse static dir from metadata
-default_template="site"
+
+DEFAULT_TEMPLATE="./templates/site.html"
+POST_TEMPLATE="./templates/post.md"
+
 PANOPTS="\
   --smart \
-  --metadata=current_year:`date +%Y` \
-  --standalone \
-  --template=${default_template} \
-  --data-dir=${DATA_DIR}"
+  --metadata=current_year:'`date +%Y`' \
+  --metadata=updated_on:'`date +%Y-%m-%dT%H:%M:%S%z`'"
+
+METADATA="./metadata.yml"
 
 rm -rf $OUTDIR/*
 
+replace_bib_link()
+{
+    DST=$1
+    f=$2
+
+    if grep -qE '^bibliography\:' ${f}
+    then  # TODO find a better alternative to this ugly replacement
+      sed -E 's/(https\:\/\/github\.com\/phretor\/publications\/[^.]+\.pdf)/ [<a href="\1" class="download-pdf">PDF<\/a>]/g' \
+        "$DST/index.html" > "$DST/.index.html"
+      mv "$DST/.index.html" "$DST/index.html"
+    fi
+}
+
 # Sections processing
 echo "[+] Processing sections..."
-find $INDIR -type f -mindepth 2 -name 'index.md' | \
+find $INDIR -type f -mindepth 2 ! -name '.*' ! -path '*/diary/*' | \
   while read f
   do
     parent=$(dirname $(realpath --relative-to ${INDIR} ${f}))
     DST=$OUTDIR/${parent}
     mkdir -p $DST
+    FN=$(basename "${f}" .md)
 
-    if grep -qE '^bibliography\:' ${f}
-    then
-      OPTS="$PANOPTS \
-        --filter pandoc-citeproc"
-    else
-      OPTS=$PANOPTS
-    fi
+    echo "$f" | grep -qE "\.md$" && {
+        if grep -qE '^bibliography\:' ${f}
+        then
+          EXTRA_OPTS="--filter pandoc-citeproc"
+        else
+          EXTRA_OPTS=""
+        fi
 
-    echo "[/${parent}] Processing..."
-    pandoc \
-      $OPTS \
-      $METADATA \
-      ${f} \
-      -o $DST/index.html
+        echo "[/${parent}] Processing..."
+        pandoc \
+          $PANOPTS \
+          $EXTRA_OPTS \
+          --standalone \
+          --template=${DEFAULT_TEMPLATE} \
+          $METADATA \
+          ${f} \
+          -o "$DST/$FN.html"
 
-    if grep -qE '^bibliography\:' ${f}
-    then
-      sed -E 's/(https\:\/\/github\.com\/phretor\/publications\/[^.]+\.pdf)/ [<a href="\1" class="download-pdf">PDF<\/a>]/g' \
-        $DST/index.html > $DST/.index.html
-      mv $DST/.index.html $DST/index.html
-    fi
+        replace_bib_link "$DST" "$f"
+    } || {
+        echo "${f} -> $DST/$(basename ${f})"
+        cp "${f}" $DST/
+    }
   done
+
+# Diary
+echo "[+] Processing diary..."
+rm $INDIR/diary/index.md
+find $INDIR -type f -mindepth 3 ! -name '.*' -path '*/diary/*' | sort -r | \
+    while read f
+    do
+        parent=$(dirname $(realpath --relative-to ${INDIR} ${f}))
+        DST=$OUTDIR/${parent}
+        mkdir -p $DST
+        FN=$(basename "${f}" .md)
+
+        echo "$f" | grep -qE "\.md$" && {
+            echo "[/${parent}] Processing..."
+            pandoc \
+              $PANOPTS \
+              --variable=href:/$parent \
+              --variable=blurb:$(echo $parent | sed -E 's/[^a-z0-9-]/-/g' | sed -E 's/[-]{1,}/-/g') \
+              --template=$POST_TEMPLATE \
+              $METADATA \
+              -o - \
+              ${f} >> $INDIR/diary/index.md
+
+            if grep -qE '^bibliography\:' ${f}
+            then
+              EXTRA_OPTS="--filter pandoc-citeproc"
+            else
+              EXTRA_OPTS=""
+            fi
+
+            pandoc \
+              $PANOPTS \
+              $EXTRA_OPTS \
+              --standalone \
+              --template=$DEFAULT_TEMPLATE \
+              $METADATA \
+              ${f} \
+              -o "$DST/$FN.html"
+
+            replace_bib_link "$DST" "$f"
+        } || {
+            echo "${f} -> $DST/$(basename ${f})"
+            cp "${f}" $DST/
+        }
+    done
+
+echo "[/diary] Processing..."
+pandoc \
+  $PANOPTS \
+  --template=${DEFAULT_TEMPLATE} \
+  --standalone \
+  -o $OUTDIR/diary/index.html \
+  $METADATA \
+  $INDIR/diary/metadata.yml \
+  $INDIR/diary/index.md
 
 # Home page
 echo "[+] Processing index ..."
-OPTS="$PANOPTS --filter pandoc-citeproc"
 pandoc \
-  $OPTS \
+  $PANOPTS \
+  --filter pandoc-citeproc \
+  --template=${DEFAULT_TEMPLATE} \
   $METADATA \
-  $INDIR/index.md \
-  -o $OUTDIR/index.html
+  -o $OUTDIR/index.html \
+  $INDIR/index.md
+
 sed -E 's/(https\:\/\/github\.com\/phretor\/publications\/[^.]+\.pdf)/ [<a href="\1" class="download-pdf">PDF<\/a>]/g' \
   $OUTDIR/index.html > $OUTDIR/.index.html
 mv $OUTDIR/.index.html $OUTDIR/index.html
@@ -73,7 +148,7 @@ mkdir $OUTDIR/s/{css,js,fonts}
 cp -R $NODE_MODULES/lato-font/fonts/* $OUTDIR/s/fonts/
 cp -R $NODE_MODULES/font-awesome/fonts/* $OUTDIR/s/fonts/
 browserify _src/js/app.js | uglifyjs -o $OUTDIR/s/js/app.js
-node-sass --output-style compressed --include-path $NODE_MODULES _src/css/app.scss > $OUTDIR/s/css/app.css
+sassc --style compressed -I $NODE_MODULES _src/css/app.scss > $OUTDIR/s/css/app.css
 
 # add CNAME
 echo $CNAME > $OUTDIR/CNAME
