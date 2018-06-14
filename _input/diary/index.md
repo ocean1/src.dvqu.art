@@ -1,3 +1,16 @@
+<section class="post" id="#diary-2018-06-14-large-scale-deface-page-analysis">
+<hr />
+<div class="row">
+  <div class="three columns">&nbsp;</div>
+  <div class="nine columns" style="text-align: left;"><h5>[Large Scale Analysis of Defaced Web Pages](/diary/2018/06/14/large-scale-deface-page-analysis)</h5></div>
+</div>
+<div class="row">
+  <div class="three columns" style="text-align: right;">**June 14, 2018**</div>
+  <div class="nine columns"><p>Given the multiple releases around this topic and project, I’ve decided to put together a summary. So fare, there is: a tool, a white paper, an academic paper, and (spoiler alert) another white paper coming soon.</p></div>
+</div>
+<br />
+<p style="text-align: right;"> <span class="tag">*#trendmicro*</span>  <span class="tag">*#measurement*</span>  <span class="tag">*#web*</span>  <span class="tag">*#defacement*</span> </p>
+</section>
 <section class="post" id="#diary-2017-10-09-dnsmasq">
 <hr />
 <div class="row">

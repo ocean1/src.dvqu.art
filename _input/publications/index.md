@@ -14,6 +14,8 @@ PDFs as well.
 Download [papers.bib](https://github.com/phretor/publications/raw/master/papers.bib)
 </p>
 
+[@maggi_defplorex_2018]
+
 [@zarras_sqlbot_2017]
 
 [@shastry_hybridstaticfuzzing_2017]
@@ -136,6 +138,13 @@ Download [journals.bib](https://github.com/phretor/publications/raw/master/journ
 <p class="text-right">
 Download [reports.bib](https://github.com/phretor/publications/raw/master/reports.bib)
 </p>
+
+[@balduzzi_defplorexwp_tr_2018]
+
+[@maggi_robotswp_tr_2017]
+
+[@maggi_candoswp_tr_2017]
+
 [@maggi_eusyssec_tr_2015]
 
 [@bazzoli_xsspeeker_tr_2014]

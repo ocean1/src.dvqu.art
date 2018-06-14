@@ -4,29 +4,26 @@ bibliography: _data/publications/publications.bib
 csl: _style/csl/publications.csl
 ---
 
-## Selected Publications
+## Selected Recent Publications
+[@maggi_defplorex_2018]
+
 [@quarta_robosec_2017]
 
 [@continella_shieldfs_2016]
 
-[@mambretti_trellis_2016]
 
 <p class="text-right">Go to the full [list of publications &raquo;](/publications)</p>
 
 <hr />
 
-## Selected Talks
+## Selected Recent Talks
+[@maggi_iiothmi_talk_2018]
+
 [@quarta_robosecbhus_talk_2017]
 
 [@continella_shieldfsbhus_talk_2017]
 
-[@balduzzi_defplorexbhus_talk_2017]
-
 [@mavroudis_silverdogbh_talk_2016]
-
-[@maggi_greateatlonbheu_talk_2016]
-
-[@maggi_phoenixgoogle_talk_2014]
 
 <p class="text-right">Go to the full [list of talks &raquo;](/talks)</p>
 
