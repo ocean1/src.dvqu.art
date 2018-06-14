@@ -2,7 +2,7 @@
 title: 'Large Scale Analysis of Defaced Web Pages'
 short: |
     Given the multiple releases around this topic and project, I've decided to
-    put together a summary. So fare, there is: a tool, a white paper, an
+    put together a summary. So far, there is: a tool, a white paper, an
     academic paper, and (spoiler alert) another white paper coming soon.
 date: 'June 14, 2018'
 tags: [trendmicro, measurement, web, defacement]

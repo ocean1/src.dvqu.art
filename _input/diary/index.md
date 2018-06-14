@@ -6,7 +6,7 @@
 </div>
 <div class="row">
   <div class="three columns" style="text-align: right;">**June 14, 2018**</div>
-  <div class="nine columns"><p>Given the multiple releases around this topic and project, I’ve decided to put together a summary. So fare, there is: a tool, a white paper, an academic paper, and (spoiler alert) another white paper coming soon.</p></div>
+  <div class="nine columns"><p>Given the multiple releases around this topic and project, I’ve decided to put together a summary. So far, there is: a tool, a white paper, an academic paper, and (spoiler alert) another white paper coming soon.</p></div>
 </div>
 <br />
 <p style="text-align: right;"> <span class="tag">*#trendmicro*</span>  <span class="tag">*#measurement*</span>  <span class="tag">*#web*</span>  <span class="tag">*#defacement*</span> </p>
