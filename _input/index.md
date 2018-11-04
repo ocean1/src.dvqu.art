@@ -1,62 +1,36 @@
 ---
-title: Federico Maggi
+title: Davide Quarta
 bibliography: _data/publications/publications.bib
 csl: _style/csl/publications.csl
 ---
 
-## Selected Recent Publications
-[@maggi_defplorex_2018]
+## About me
+I am a Postdoctoral Researcher in the [System Security group](http://www.s3.eurecom.fr) at [Eurecom](http://www.eurecom.fr) under the supervision of [Davide Balzarotti](http://s3.eurecom.fr/~balzarot/). I received my PhD from [Politecnico di Milano](https://www.polimi.it/) where I worked in the [NECSTLab] under the supervision of [Stefano Zanero](http://home.deib.polimi.it/zanero/) and [Federico Maggi](https://maggi.cc/).
+I received my *Laurea Magistrale* in Software and Digital Systems, and *Laurea* from [Politecnico di Torino](https://www.polito.it/).
 
-[@quarta_robosec_2017]
+As a Marie-Skłodowska Curie alumni, I've been an exchange student at UC Santa Barbara' SecLab](). At the end of my PhD I also had a chance to work as an engineering intern in Qualcomm' Product Security group under the supervision of [Pouyan Sepehrdad](https://scholar.google.com/citations?user=I-kR9XsAAAAJ).
 
-[@continella_shieldfs_2016]
+I love teaching: worked as *TA* in basic programming, and computer security courses, and as a freelance consultant on different projects, includin teaching of malware analysis, mobile and windows reverse engineering for the [Consorzio Interuniversitario Nazionale per l'Informatica](https://www.consorzio-cini.it), and national, and international clients of Italian security firms [Secure Network](https://www.securenetwork.it), and [Shorr Kan](http://www.shorr-kan.com/).
 
+You can download a copy of my [CV]().
 
-<p class="text-right">Go to the full [list of publications &raquo;](/publications)</p>
+### Research interests
+
+CPS, IoT and malware >:) hold together by my love for Reverse Engineering <3
+
+## Contact
 
 <hr />
 
-## Selected Recent Talks
-[@maggi_iiothmi_talk_2018]
+## News
+
+[@de2018elisa]
+
+[@quarta2018toward]
+
+[@quarta2017experimental]
 
 [@quarta_robosecbhus_talk_2017]
 
-[@continella_shieldfsbhus_talk_2017]
 
-[@mavroudis_silverdogbh_talk_2016]
-
-<p class="text-right">Go to the full [list of talks &raquo;](/talks)</p>
-
-<hr />
-
-## About me
-I am a Senior Threat Researcher with [Trend Micro’s Forward-Looking Threat
-Research (FTR)
-team](http://www.trendmicro.com/vinfo/us/security/research-and-analysis/), an
-elite team of researchers whose mission is to fighting against cyber criminals
-and scouting the future of emerging technologies, striving to predict and
-prevent emerging security risks and threats.
-
-My research interests, mainly rooted in MSc and PhD, revolve around various
-topics under the “cyber security” and “cyber crime” umbrella terms, including
-threat analysis, malware analysis, mobile security, financial fraud analysis
-and detection, web- and social-network security and data analysis. I've
-presented my research at various international venues including academic
-conferences and industry conferences (such as Black Hat), as well as closed-door
-events.
-
-I come from the academic world: I was an Assistant Professor at
-[Dipartimento di Elettronica, Informazione e Bioingegneria
-(DEIB)](http://www.deib.polimi.it), [Politecnico di Milano](http://polimi.it)
-in Italy, where I co-directed the system-security group at the [NECST
-Laboratory](http://necst.it).
-
-In my career, I collaborate(d) with several research groups (e.g., UCSB, FORTH,
-NEU, Stony Brook, KU Leven, and RHUL), and I have given several lectures and
-[talks](/talks) as an invjted speaker at international venues and research
-schools. I also serve in the review or organizing committees of well-known
-conferences.
-
-A [longer version of my bio](/about) is available, and more details can be
-found in my [CV](/cv) at my [LinkedIn profile
-page](https://linkedin.com/in/phretor).
+<p class="text-right">Go to the full lists of [publications](/publications), and [talks](/talks)</p>

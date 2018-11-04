@@ -1,6 +1,6 @@
 #! /bin/bash
 
-CNAME="maggi.cc"
+CNAME="dvqu.art"
 INDIR="./_input"
 OUTDIR="./_output"
 STATIC="./_static"
@@ -36,6 +36,7 @@ replace_bib_link()
 
 # Sections processing
 echo "[+] Processing sections..."
+
 find $INDIR -type f -mindepth 2 ! -name '.*' ! -path '*/diary/*' | \
   while read f
   do
@@ -70,6 +71,8 @@ find $INDIR -type f -mindepth 2 ! -name '.*' ! -path '*/diary/*' | \
   done
 
 # Diary
+process_diar()
+{
 echo "[+] Processing diary..."
 rm $INDIR/diary/index.md
 find $INDIR -type f -mindepth 3 ! -name '.*' -path '*/diary/*' | sort -r | \
@@ -123,6 +126,7 @@ pandoc \
   $METADATA \
   $INDIR/diary/metadata.yml \
   $INDIR/diary/index.md
+}
 
 # Home page
 echo "[+] Processing index ..."
@@ -144,11 +148,11 @@ cp -R $STATIC $OUTDIR/s
 
 # Build frontend kit
 echo "[+] Building frontend files..."
-mkdir $OUTDIR/s/{css,js,fonts}
-cp -R $NODE_MODULES/lato-font/fonts/* $OUTDIR/s/fonts/
-cp -R $NODE_MODULES/font-awesome/fonts/* $OUTDIR/s/fonts/
-browserify _src/js/app.js | uglifyjs -o $OUTDIR/s/js/app.js
-sassc --style compressed -I $NODE_MODULES _src/css/app.scss > $OUTDIR/s/css/app.css
+mkdir $OUTDIR/s/{css,js}
+#cp -R $NODE_MODULES/lato-font/fonts/* $OUTDIR/s/fonts/
+#cp -R $NODE_MODULES/font-awesome/fonts/* $OUTDIR/s/fonts/
+node node_modules/browserify/bin/cmd.js _src/js/app.js | node_modules/uglify-js/bin/uglifyjs -o $OUTDIR/s/js/app.js
+node_modules/clean-css-cli/bin/cleancss -o $OUTDIR/s/css/app.css _src/css/*.css
 
 # add CNAME
 echo $CNAME > $OUTDIR/CNAME

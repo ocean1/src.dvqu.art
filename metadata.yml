@@ -1,15 +1,14 @@
 ---
-description: "I'm a computer security researcher"
-default_author: Federico Maggi
+description: "computer security research"
+default_author: Davide Quarta
 lang: en-GB
 nickname: phretor
 url: "http://maggi.cc"
 static: "/s"
-copyright_since: 2007
-email: http://www.google.com/recaptcha/mailhide/d?k=01XgUP9L-ca6skQRrxCkEU4Q==&c=EpW6X9EYPxYp6WQkIV909YzOEPC9H4eDR1BkyLhJfKY=
-twitter: phretor
-linkedin: phretor
-bitbucket: phretor
-github: phretor
-google_analytics_id: UA-2189459-3
+copyright_since: cl
+email: quarta [at] eurecom [dot] fr
+twitter: _ocean
+linkedin: oceanx
+github: ocean1
+google_analytics_id: 
 ---
