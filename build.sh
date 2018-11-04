@@ -156,3 +156,6 @@ node_modules/clean-css-cli/bin/cleancss -o $OUTDIR/s/css/app.css _src/css/*.css
 
 # add CNAME
 echo $CNAME > $OUTDIR/CNAME
+
+# add .nojekyll
+touch $OUTDIR/.nojekyll

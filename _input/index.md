@@ -19,7 +19,13 @@ You can download a copy of my [CV]().
 CPS, IoT and malware >:) hold together by my love for Reverse Engineering <3
 
 ## Contact
-
+<div id="social-links" class="text-center">
+<a class="fab fa-github" href="https://github.com/$github$"></a>
+<a class="fab fa-twitter" href="https://twitter.com/$twitter$"></a>
+<a class="fab fa-linkedin" href="https://www.linkedin.com/in/$linkedin$"></a>
+<a class="fa fa-envelope" href="$email$"></a>
+</div>
+</div>
 <hr />
 
 ## News
