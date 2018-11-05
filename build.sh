@@ -34,6 +34,8 @@ replace_bib_link()
     fi
 }
 
+rm -f /dev/shm/publications.bib && cat _data/publications/*.bib > /dev/shm/publications.bib
+
 # Sections processing
 echo "[+] Processing sections..."
 

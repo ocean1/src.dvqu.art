@@ -1,19 +1,10 @@
 ---
-title: Publications
-bibliography: _data/publications/publications.bib
+title: Publications&amp;Talks
+bibliography: /dev/shm/publications.bib
 csl: _style/csl/publications.csl
 ---
 
-You can download the database of [my publications as a BibTeX
-file](https://github.com/phretor/publications/raw/master/publications.bib), or [clone the
-repository](https://github.com/phretor/publications) containing the
-PDFs as well.
-
-## Conference Papers
-<p class="text-right">
-Download [papers.bib](https://github.com/phretor/publications/raw/master/papers.bib)
-</p>
-
+## Conference Papers <a class="fas fa-xs fa-book" href="/publications/papers.bib"></a>
 [@quarta2018toward]
 
 [@de2018elisa]
@@ -21,33 +12,31 @@ Download [papers.bib](https://github.com/phretor/publications/raw/master/papers.
 [@quarta2017experimental]
 
 
-## Workshop Papers
-<p class="text-right">
-Download [workshops.bib](https://github.com/phretor/publications/raw/master/workshops.bib)
-</p>
-
-[@marastoni2017groupdroid]
-
-
-## Journal Papers
-<p class="text-right">
-Download [journals.bib](https://github.com/phretor/publications/raw/master/journals.bib)
-</p>
+## Journal Papers <a class="fas fa-xs fa-book" href="/publications/journals.bib"></a>
 
 [@valdi2015scalable]
 
 
-## Technical Reports
+## Workshop Papers&amp;Posters <a class="fas fa-xs fa-book" href="/publications/workshops.bib"></a>
+
+[@marastoni2017groupdroid]
+
+[@quartaDACposter]
+
+
+## Technical Reports <a class="fas fa-xs fa-book" href="/publications/reports.bib"></a>
 <p class="text-right">
 Download [reports.bib](https://github.com/phretor/publications/raw/master/reports.bib)
 </p>
 
 [@maggi2017rogue]
 
-## Dissertations
-<p class="text-right">
-Download [dissertations.bib](https://github.com/phretor/publications/raw/master/dissertations.bib)
-</p>
+
+## Dissertations <a class="fas fa-xs fa-book" href="/publications/dissertations.bib"></a>
 
 [@quarta2018embedded]
 
+
+## Talks <a class="fas fa-xs fa-book" href="/publications/talks.bib"></a>
+
+[@quarta_robosecbhus_talk_2017]
