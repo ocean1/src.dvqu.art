@@ -36,4 +36,4 @@ My current research interest lies at the intersection of these two topics, where
 + **2018** invited [talk](https://www.troopers.de/troopers18/agenda/yxzlz7/) and [panel](https://www.troopers.de/troopers18/agenda/bgsj3x/) on *robots* at Troopers'18
 + **2017** [paper](https://robosec.org) on industrial robot security accepted at IEEE S&amp;P'17
 
-<p class="text-right">Go to the full lists of [publications](/publications), and [talks](/talks)</p>
+<p class="text-right">Go to the full lists of [publications and talks](/publications)</p>
