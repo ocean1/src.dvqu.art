@@ -19,6 +19,7 @@ I love Reverse Engineering in <a href="/projects/">all of its forms</a>. I worke
 During my PhD I focused instead on <a href="https://robosec.org">Industrial systems</a> and more in general on the inherent challenges posed IoT and embedded systems at large.
 
 My current research interest lies at the intersection of these two topics, where we'll probably see more and more attacks being carried on by *implants* on embedded systems (i.e., Mirai).
+<hr />
 
 ## Contact
 <p class="social fas fa-envelope">{{email}}</p>
