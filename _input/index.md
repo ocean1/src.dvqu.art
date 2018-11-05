@@ -23,7 +23,7 @@ My current research interest lies at the intersection of these two topics, where
 
 ## Contact
 <p class="social fas fa-envelope">quarta <a class="fas fa-xs fa-at"><a> eurecom <a class="far fa-xs fa-dot-circle"></a> fr</p>
-<p class="social fas fa-lock"> PGP 0x12345ABCD</p>
+<p class="social fas fa-lock">PGP 0x12345ABCD</p>
 <p class="social fab fa-github">[{{github}}](https://github.com/{{github}})</p>
 <p class="social fab fa-twitter">[{{twitter}}](https://twitter.com/{{twitter}})</p>
 <p class="social fab fa-linkedin">[{{linkedin}}](https://linkedin.com/in/{{linkedin}})</p>
@@ -37,4 +37,4 @@ My current research interest lies at the intersection of these two topics, where
 + **2018** invited [talk](https://www.troopers.de/troopers18/agenda/yxzlz7/) and [panel](https://www.troopers.de/troopers18/agenda/bgsj3x/) on *robots* at Troopers'18
 + **2017** [paper](https://robosec.org) on industrial robot security accepted at IEEE S&amp;P'17
 
-<p class="text-right">Go to the full lists of [publications and talks](/publications)</p>
+<p class="text-right">Go to the full list of [publications and talks](/publications)</p>

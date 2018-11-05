@@ -25,9 +25,6 @@ csl: _style/csl/publications.csl
 
 
 ## Technical Reports <a class="fas fa-xs fa-book" href="/publications/reports.bib"></a>
-<p class="text-right">
-Download [reports.bib](https://github.com/phretor/publications/raw/master/reports.bib)
-</p>
 
 [@maggi2017rogue]
 
@@ -39,4 +36,14 @@ Download [reports.bib](https://github.com/phretor/publications/raw/master/report
 
 ## Talks <a class="fas fa-xs fa-book" href="/publications/talks.bib"></a>
 
+[@troopers_panel_2018]
+
+[@troopers_robot_2018]
+
 [@quarta_robosecbhus_talk_2017]
+
+[@robot_sp_2017]
+
+[@console_hack]
+
+[@smashing_stack_win8]
