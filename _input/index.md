@@ -11,7 +11,7 @@ I received my *Laurea Magistrale* in Software and Digital Systems, and *Laurea* 
 
 As a Marie-Skłodowska Curie alumni, I've been an exchange student at UC Santa Barbara' [SecLab](https://seclab.cs.ucsb.edu/), working under the supervision of [Giovanni Vigna](https://cs.ucsb.edu/~vigna/) and [Christopher Kruegel](https://www.cs.ucsb.edu/~chris/). At the end of my PhD I also had a chance to work as an engineering intern in Qualcomm' Product Security group under the supervision of [Pouyan Sepehrdad](https://scholar.google.com/citations?user=I-kR9XsAAAAJ).
 
-I love teaching: I worked as *TA* in basic programming, and computer security courses, and as a freelance consultant I teached malware analysis, and mobile and windows reverse engineering for the [Consorzio Interuniversitario Nazionale per l'Informatica](https://www.consorzio-cini.it), and national, and international clients of Italian security firms [Secure Network](https://www.securenetwork.it), and [Shorr Kan](http://www.shorr-kan.com/). Check out my full [CV]().
+I love teaching: I worked as *TA* in basic programming, and computer security courses, and as a freelance consultant I teached malware analysis, and mobile and windows reverse engineering for the [Consorzio Interuniversitario Nazionale per l'Informatica](https://www.consorzio-cini.it), and national, and international clients of Italian security firms [Secure Network](https://www.securenetwork.it), and [Shorr Kan](http://www.shorr-kan.com/). Check out my condensed [CV](/s/cv.pdf).
 
 ### Research interests
 
