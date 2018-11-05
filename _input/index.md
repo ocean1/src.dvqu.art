@@ -21,15 +21,18 @@ During my PhD I focused instead on <a href="https://robosec.org">Industrial syst
 My current research interest lies at the intersection of these two topics, where we'll probably see more and more attacks being carried on by *implants* on embedded systems (i.e., Mirai).
 
 ## Contact
-<p class="fas fa-envelope">{{email}}</p>
-<p class="fas fa-lock"> PGP 0x12345ABCD</p>
-<p class="fab fa-github">[{{github}}](https://github.com/{{github}})
-<p class="fab fa-twitter">[{{twitter}}](https://twitter.com/{{twitter}})</p>
-<p class="fab fa-linkedin">[{{linkedin}}](https://linkedin.com/in/{{linkedin}})</p>
+<p class="social fas fa-envelope">{{email}}</p>
+<p class="social fas fa-lock"> PGP 0x12345ABCD</p>
+<p class="social fab fa-github">[{{github}}](https://github.com/{{github}})</p>
+<p class="social fab fa-twitter">[{{twitter}}](https://twitter.com/{{twitter}})</p>
+<p class="social fab fa-linkedin">[{{linkedin}}](https://linkedin.com/in/{{linkedin}})</p>
 <hr />
 
-## News
+## Highlights
 
 + **2018** talk on MQTT&amp;CoAP security at BlackHat EU
++ **2018** two papers accepted \@DIMVA'18!
++ **2018** talk and panel at Troopers'18
++ **2017** paper on industrial robot security accepted at S&amp;P
 
 <p class="text-right">Go to the full lists of [publications](/publications), and [talks](/talks)</p>

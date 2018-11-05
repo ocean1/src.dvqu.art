@@ -2,9 +2,15 @@
 
 body {
     font-family: 'Encode Sans Condensed', sans-serif;
+    padding: 1.2em;
 }
 
 h1, h2, h3,
 h4, h5, h6 {
     font-family: 'Inconsolata', monospace;
+}
+
+.social {
+    padding-left: 0.4em;
+    padding-right: 0.4em;
 }
