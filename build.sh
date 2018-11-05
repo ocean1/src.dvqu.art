@@ -37,9 +37,10 @@ replace_bib_link()
 rm -f /dev/shm/publications.bib && cat _data/publications/*.bib > /dev/shm/publications.bib
 
 # Sections processing
+process_sections(){
 echo "[+] Processing sections..."
 
-find $INDIR -type f -mindepth 2 ! -name '.*' ! -path '*/diary/*' | \
+find $INDIR -mindepth 2 -type f ! -name '.*' ! -path '*/diary/*' | \
   while read f
   do
     parent=$(dirname $(realpath --relative-to ${INDIR} ${f}))
@@ -60,6 +61,7 @@ find $INDIR -type f -mindepth 2 ! -name '.*' ! -path '*/diary/*' | \
           $PANOPTS \
           $EXTRA_OPTS \
           --standalone \
+          --filter pandoc-mustache \
           --template=${DEFAULT_TEMPLATE} \
           $METADATA \
           ${f} \
@@ -71,9 +73,10 @@ find $INDIR -type f -mindepth 2 ! -name '.*' ! -path '*/diary/*' | \
         cp "${f}" $DST/
     }
   done
+}
 
 # Diary
-process_diar()
+process_diary()
 {
 echo "[+] Processing diary..."
 rm $INDIR/diary/index.md
@@ -131,9 +134,12 @@ pandoc \
 }
 
 # Home page
+process_index()
+{
 echo "[+] Processing index ..."
 pandoc \
   $PANOPTS \
+  --filter pandoc-mustache \
   --filter pandoc-citeproc \
   --template=${DEFAULT_TEMPLATE} \
   $METADATA \
@@ -143,6 +149,11 @@ pandoc \
 sed -E 's/(https\:\/\/github\.com\/phretor\/publications\/[^.]+\.pdf)/ [<a href="\1" class="download-pdf">PDF<\/a>]/g' \
   $OUTDIR/index.html > $OUTDIR/.index.html
 mv $OUTDIR/.index.html $OUTDIR/index.html
+} 
+
+
+process_sections
+process_index
 
 # Static files
 echo "[+] Processing static files..."
