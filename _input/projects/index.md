@@ -1,45 +1,56 @@
 ---
-title: Projects & Acitivities
+title: Projects & Activities
 ---
 
 ## Professional Activities
+I served as a reviewer for several venues:
 
-Reviewer Service
+  + IEEE S&amp;P [student PC](https://www.ieee-security.org/TC/SP2018/studentpc.html) – 2018
+  + IJIS – 2018
+  + Elsevier COSE – 2017, 2018
+  + CyberICPS – 2017
+  + WISTP – 2015, 2017
+  + EuroSec – 2015
+  + ICISS – 2014, 2015, 2016
 
 
 ## Projects
 
 ### [robosec.org](https://robosec.org)
+A repository for the output of a joint research on *Industrial Robots Security* by Politecnico di Milano, and Trend Micro, Inc.
 
 ### [Awesome thesis](https://github.com/ocean1/awesome-thesis)
+While (co-)advising theses, I often suggest resources to students, and decided to put together a resource list, that will help students during the process of developing their CS master thesis.
 
 ### [Crave](https://github.com/necst/crave)
+crAVe is a framework developed at NECSTLab to automatically test and explore the capabilities of generic AV engines. It's been developed in order to fuel further research, easing the development of scripts to manipulate malware, submit them to scanners (i.e., VirusTotal), retrieve, and analyze results.
+
 
 ### [Andrototal](https://andrototal.org/)
-
+AndroTotal is a free service to scan suspicious APKs against multiple mobile antivirus apps, it's dataset has been shared with academic researchers, and fueled further research on android malware.
 
 ## CTFs
+I play(ed) CTFs with several teams: TowerOfHanoi, Shellphish, and Mhackeroni.
+I co-organized PoliCTF 2015, and developed challenges for iCTF 2017, and 2018.
 
-TowerOfHanoi, Shellphish.
-PoliCTF 2016, iCTF 2017, 2018.
-Open source challenges.
-[CTFsubmitter](https://github.com/TowerofHanoi/CTFsubmitter)
-[Writeups](https://github.com/ocean1/writeups)
-
+  + [CTFsubmitter](https://github.com/TowerofHanoi/CTFsubmitter): a service for A/D CTFs, in order to submit flags and keep track of the status of attacks.
+  + [Gandgalf](https://github.com/ocean1/gandgalf): a challenge developed for PoliCTF 2015, features a custom executable packer, and floppy disk based copy protection.
+  + [Writeups](https://github.com/ocean1/writeups): a collection of writeups for different CTF challenges I solved.
 
 ## Advisories
 
 
-## Other
-
-  + [robust hash](https://github.com/ocean1/robusthash)
-  + [collaborativesupport](https://github.com/ocean1/CollaborativeSupport)
-
 ### Scripts and tools
-  + [peid2yara](https://github.com/ocean1/peid2yara)
-  + [reversing](https://github.com/ocean1/reversing_stuff)
+  + [peid2yara](https://github.com/ocean1/peid2yara): convert peid DB to yara rules.
+  + [reversing](https://github.com/ocean1/reversing_stuff): various reversing related scripts.
 
 ### Rom hacking
-  + [MMX pack](https://github.com/ocean1/mmx_hackpack)
-  + [Star Ocean VWF](https://github.com/ocean1/sobs_vwf)
-  + [VWF GB/C demo](https://github.com/ocean1/vwf_gb_demo)
+My passion for reverse engineering started with gameboy/color games:
+
+  + [MMX pack](https://github.com/ocean1/mmx_hackpack): a pack containing a de/compressor for in-game graphics and a VWF hack for MegaManXtreme/2 GB/C game.
+  + [Star Ocean VWF](https://github.com/ocean1/sobs_vwf): VWF hack for Star Ocean Blue Sphere GB/C game.
+  + [VWF GB/C demo](https://github.com/ocean1/vwf_gb_demo): A small demo to test the vwf code on gb/c.
+
+## Other
+  + [robust hash](https://github.com/ocean1/robusthash): a small experiment in image robust hashing
+  + [collaborativesupport](https://github.com/ocean1/CollaborativeSupport): C# asynchronous chat client with screen sharing

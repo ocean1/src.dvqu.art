@@ -22,7 +22,7 @@ My current research interest lies at the intersection of these two topics, where
 <hr />
 
 ## Contact
-<p class="social fas fa-envelope">{{email}}</p>
+<p class="social fas fa-envelope">quarta <a class="fas fa-xs fa-at"><a> eurecom <a class="far fa-xs fa-dot-circle"></a> fr</p>
 <p class="social fas fa-lock"> PGP 0x12345ABCD</p>
 <p class="social fab fa-github">[{{github}}](https://github.com/{{github}})</p>
 <p class="social fab fa-twitter">[{{twitter}}](https://twitter.com/{{twitter}})</p>
