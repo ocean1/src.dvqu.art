@@ -1,6 +1,6 @@
 ---
 title: Davide Quarta
-bibliography: _data/publications/publications.bib
+bibliography: /dev/shm/publications.bib
 csl: _style/csl/publications.csl
 ---
 
