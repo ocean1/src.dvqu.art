@@ -7,7 +7,7 @@ mustache: contacts.yml
 ---
 
 ## About me
-I am a Postdoctoral Researcher in the [System Security group](http://www.s3.eurecom.fr) at [Eurecom](http://www.eurecom.fr) under the supervision of [Davide Balzarotti](http://s3.eurecom.fr/~balzarot/). I received my PhD from [Politecnico di Milano](https://www.polimi.it/) where I worked in the [NECSTLab] under the supervision of [Stefano Zanero](http://home.deib.polimi.it/zanero/) and [Federico Maggi](https://maggi.cc/).
+I am a Postdoctoral Researcher in the [System Security group](http://www.s3.eurecom.fr) at [Eurecom](http://www.eurecom.fr) under the supervision of [Davide Balzarotti](http://s3.eurecom.fr/~balzarot/). I received my PhD from [Politecnico di Milano](https://www.polimi.it/) where I worked in the [NECSTLab](https://necst.it/) under the supervision of [Stefano Zanero](http://home.deib.polimi.it/zanero/) and [Federico Maggi](https://maggi.cc/).
 I received my *Laurea Magistrale* in Software and Digital Systems, and *Laurea* from [Politecnico di Torino](https://www.polito.it/).
 
 As a Marie-Skłodowska Curie alumni, I've been an exchange student at UC Santa Barbara' [SecLab](https://seclab.cs.ucsb.edu/), working under the supervision of [Giovanni Vigna](https://cs.ucsb.edu/~vigna/) and [Christopher Kruegel](https://www.cs.ucsb.edu/~chris/). At the end of my PhD I also had a chance to work as an engineering intern in Qualcomm' Product Security group under the supervision of [Pouyan Sepehrdad](https://scholar.google.com/citations?user=I-kR9XsAAAAJ).
