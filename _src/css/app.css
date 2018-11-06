@@ -15,3 +15,30 @@ h4, h5, h6 {
     padding-left: 0.4em;
     padding-right: 0.4em;
 }
+
+img.headerimg {
+    width: 100%;
+}
+
+div.headerimg {
+    overflow: hidden;
+    height: 60px;
+    width: 100%
+}
+
+.social {
+    display: block !important;
+    clear: both !important;
+}
+
+.content {
+    margin: 0 auto;
+    padding: 0 2em;
+    max-width: 800px;
+    margin-bottom: 50px;
+    line-height: 1.6em;
+}
+
+header {
+    text-align: center;
+}

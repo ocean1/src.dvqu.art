@@ -19,10 +19,15 @@
   </head>
 
   <body>
-    <div class="container">
+    <div class="content">
       <!--header/-->
       <header>
         <div class="row">
+          $if(bannerimg)$
+            <div class="headerimg">
+                <img class="headerimg" src="/s/i/$bannerimg$"></img>
+            </div>
+          $endif$
           <div class="twelve columns">
             <h1 class="text-center pale">$title$</h1>
           </div>
@@ -32,7 +37,7 @@
             <nav class="text-center">
               · <a href="/#aboutme">About me</a> ·
               <a href="/#highlights">Highlights</a> ·
-              <a href="/publications/">Publications</a> ·
+              <a href="/publications/">Publications&amp;Talks</a> ·
               <a href="/projects/">Projects&amp;Activities</a> ·
               <a href="/#contact">Contact</a> ·
             </nav>
