@@ -23,7 +23,7 @@ My current research interest lies at the intersection of these two topics, where
 
 ## Contact
 <p class="social fas fa-envelope">quarta <a class="fas fa-xs fa-at"><a> eurecom <a class="far fa-xs fa-dot-circle"></a> fr</p>
-<p class="social fas fa-lock">PGP 0x12345ABCD</p>
+<p class="social fas fa-lock">PGP [0x94AA3164](/s/ocean.asc)</p>
 <p class="social fab fa-github">[{{github}}](https://github.com/{{github}})</p>
 <p class="social fab fa-twitter">[{{twitter}}](https://twitter.com/{{twitter}})</p>
 <p class="social fab fa-linkedin">[{{linkedin}}](https://linkedin.com/in/{{linkedin}})</p>
