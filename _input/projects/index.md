@@ -38,14 +38,10 @@ I co-organized PoliCTF 2015, and developed challenges for iCTF 2017, and 2018.
   + [Gandgalf](https://github.com/ocean1/gandgalf): a challenge developed for PoliCTF 2015, features a custom executable packer, and floppy disk based copy protection.
   + [Writeups](https://github.com/ocean1/writeups): a collection of writeups for different CTF challenges I solved.
 
-## Advisories
+## Bugs&amp;Advisories
+TBD
 
-
-### Scripts and tools
-  + [peid2yara](https://github.com/ocean1/peid2yara): convert peid DB to yara rules.
-  + [reversing](https://github.com/ocean1/reversing_stuff): various reversing related scripts.
-
-### Rom hacking
+## Rom hacking
 My passion for reverse engineering started with gameboy/color games:
 
   + [MMX pack](https://github.com/ocean1/mmx_hackpack): a pack containing a de/compressor for in-game graphics and a VWF hack for MegaManXtreme/2 GB/C game.
@@ -53,5 +49,7 @@ My passion for reverse engineering started with gameboy/color games:
   + [VWF GB/C demo](https://github.com/ocean1/vwf_gb_demo): A small demo to test the vwf code on gb/c.
 
 ## Other
+  + [peid2yara](https://github.com/ocean1/peid2yara): convert peid DB to yara rules
+  + [reversing](https://github.com/ocean1/reversing_stuff): various reversing related scripts.
   + [robust hash](https://github.com/ocean1/robusthash): a small experiment in image robust hashing
   + [collaborativesupport](https://github.com/ocean1/CollaborativeSupport): C# asynchronous chat client with screen sharing

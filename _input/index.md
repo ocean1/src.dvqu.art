@@ -16,7 +16,7 @@ I love teaching: I worked as *TA* in basic programming, and computer security co
 
 ### Research interests
 
-I love Reverse Engineering in <a href="/projects/">all of its forms</a>. I worked on (android) malware analysis as *Research Assistant* in Politecnico di Milano, working on the <a href="https://andrototal.org">Andrototal</a> project, and more in general on malware analysis as a freelance consultant. I am currently working on the <a href="projects/#crave">CrAVe</a> project to develop a deeper understanding of anti-malware solutions, and how they are impacted by evasive malware.
+I love Reverse Engineering in <a href="/projects/#rom-hacking">all of its forms</a>. I worked on (android) malware analysis as *Research Assistant* in Politecnico di Milano, working on the <a href="https://andrototal.org">Andrototal</a> project, and more in general on malware analysis as a freelance consultant. I am currently working on the <a href="projects/#crave">CrAVe</a> project to develop a deeper understanding of anti-malware solutions, and how they are impacted by evasive malware.
 During my PhD I focused on <a href="https://robosec.org">Industrial systems</a> and more in general on the inherent challenges posed IoT and embedded systems at large.
 
 My current research interest lies at the intersection of these two topics, where we'll probably see more and more attacks being carried through embedded systems (e.g., Mirai, amplification attacks, etc.).
@@ -24,7 +24,7 @@ My current research interest lies at the intersection of these two topics, where
 
 <div class="pure-g">
 
-<div class="pure-u-2-3">
+<div class="pure-u-1-1 pure-u-md-2-3">
 ## Highlights
 
 + **2018** DarkReadings [interview](https://www.darkreading.com/vulnerabilities---threats/new-security-woes-for-popular-iot-protocols/d/d-id/1333069) about MQTT&amp;CoAP
@@ -36,7 +36,7 @@ My current research interest lies at the intersection of these two topics, where
 
 </div>
 
-<div class="pure-u-1-3">
+<div class="pure-u-1-1 pure-u-md-1-3">
 ## Contact
 <p class="social fas fa-envelope">quarta <a class="fas fa-xs fa-at"><a> eurecom <a class="far fa-xs fa-dot-circle"></a> fr</p>
 <p class="social fas fa-lock">PGP [0x94AA3164](/s/ocean.asc)</p>
