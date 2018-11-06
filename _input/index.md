@@ -17,25 +17,32 @@ I love teaching: I worked as *TA* in basic programming, and computer security co
 ### Research interests
 
 I love Reverse Engineering in <a href="/projects/">all of its forms</a>. I worked on (android) malware analysis as *Research Assistant* in Politecnico di Milano, working on the <a href="https://andrototal.org">Andrototal</a> project, and more in general on malware analysis as a freelance consultant. I am currently working on the <a href="projects/#crave">CrAVe</a> project to develop a deeper understanding of anti-malware solutions, and how they are impacted by evasive malware.
-During my PhD I focused instead on <a href="https://robosec.org">Industrial systems</a> and more in general on the inherent challenges posed IoT and embedded systems at large.
+During my PhD I focused on <a href="https://robosec.org">Industrial systems</a> and more in general on the inherent challenges posed IoT and embedded systems at large.
 
 My current research interest lies at the intersection of these two topics, where we'll probably see more and more attacks being carried through embedded systems (e.g., Mirai, amplification attacks, etc.).
 <hr />
 
+<div class="pure-g">
+
+<div class="pure-u-2-3">
+## Highlights
+
++ **2018** DarkReadings [interview](https://www.darkreading.com/vulnerabilities---threats/new-security-woes-for-popular-iot-protocols/d/d-id/1333069) about MQTT&amp;CoAP
++ **2018** MQTT&amp;CoAP security talk at [BHEU'18](https://www.blackhat.com/eu-18/briefings/schedule/index.html#when-machines-cant-talk-security-and-privacy-issues-of-machine-to-machine-data-protocols-12722)
++ **2018** Engineering intern at Qualcomm' QPSI! <p class="fas fa-xs fa-heart"></p>
++ **2018** [Crave](/projects/#crave) and [ELISA](https://link.springer.com/chapter/10.1007/978-3-319-93411-2_16) got accepted \@DIMVA'18!
++ **2018** invited [talk](https://www.troopers.de/troopers18/agenda/yxzlz7/) and [panel](https://www.troopers.de/troopers18/agenda/bgsj3x/) on *robots* at Troopers'18
+<!-- + **2017** [paper](https://robosec.org) on industrial robot security accepted at IEEE S&amp;P'17-->
+
+</div>
+
+<div class="pure-u-1-3">
 ## Contact
 <p class="social fas fa-envelope">quarta <a class="fas fa-xs fa-at"><a> eurecom <a class="far fa-xs fa-dot-circle"></a> fr</p>
 <p class="social fas fa-lock">PGP [0x94AA3164](/s/ocean.asc)</p>
 <p class="social fab fa-github">[{{github}}](https://github.com/{{github}})</p>
 <p class="social fab fa-twitter">[{{twitter}}](https://twitter.com/{{twitter}})</p>
 <p class="social fab fa-linkedin">[{{linkedin}}](https://linkedin.com/in/{{linkedin}})</p>
-<hr />
+</div>
 
-## Highlights
-
-+ **2018** [talk](https://www.blackhat.com/eu-18/briefings/schedule/index.html#when-machines-cant-talk-security-and-privacy-issues-of-machine-to-machine-data-protocols-12722) on MQTT&amp;CoAP security at BlackHat EU with DarkReading interview
-+ **2018** Engineering intern at Qualcomm' QPSI! <p class="fas fa-xs fa-heart"></p>
-+ **2018** [Crave](/projects/#crave) and [ELISA](https://link.springer.com/chapter/10.1007/978-3-319-93411-2_16) got accepted \@DIMVA'18!
-+ **2018** invited [talk](https://www.troopers.de/troopers18/agenda/yxzlz7/) and [panel](https://www.troopers.de/troopers18/agenda/bgsj3x/) on *robots* at Troopers'18
-+ **2017** [paper](https://robosec.org) on industrial robot security accepted at IEEE S&amp;P'17
-
-<p class="text-right">Go to the full list of [publications and talks](/publications)</p>
+</div>

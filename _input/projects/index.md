@@ -1,5 +1,6 @@
 ---
-title: Projects & Activities
+title: Projects &amp; Activities
+bannerimg: large-fish.jpg
 ---
 
 ## Professional Activities

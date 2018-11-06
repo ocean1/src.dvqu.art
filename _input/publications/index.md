@@ -1,5 +1,6 @@
 ---
 title: Publications&amp;Talks
+bannerimg: bb.jpg
 bibliography: /dev/shm/publications.bib
 csl: _style/csl/publications.csl
 ---
