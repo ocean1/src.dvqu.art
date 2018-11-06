@@ -18,7 +18,7 @@ I love teaching: I worked as *TA* in basic programming, and computer security co
 I love Reverse Engineering in <a href="/projects/">all of its forms</a>. I worked on (android) malware analysis as *Research Assistant* in Politecnico di Milano, working on the <a href="https://andrototal.org">Andrototal</a> project, and more in general on malware analysis as a freelance consultant. I am currently working on the <a href="projects/#crave">CrAVe</a> project to develop a deeper understanding of anti-malware solutions, and how they are impacted by evasive malware.
 During my PhD I focused instead on <a href="https://robosec.org">Industrial systems</a> and more in general on the inherent challenges posed IoT and embedded systems at large.
 
-My current research interest lies at the intersection of these two topics, where we'll probably see more and more attacks being carried through embedded systems (e.g., Mirai, UPnP...).
+My current research interest lies at the intersection of these two topics, where we'll probably see more and more attacks being carried through embedded systems (e.g., Mirai, amplification attacks, etc.).
 <hr />
 
 ## Contact
