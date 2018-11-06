@@ -167,6 +167,9 @@ mkdir $OUTDIR/s/{css,js}
 node node_modules/browserify/bin/cmd.js _src/js/app.js | node_modules/uglify-js/bin/uglifyjs -o $OUTDIR/s/js/app.js
 node_modules/clean-css-cli/bin/cleancss -o $OUTDIR/s/css/app.css _src/css/*.css
 
+# add favicon
+cp _data/favicon.ico $OUTDIR/
+
 # add CNAME
 echo $CNAME > $OUTDIR/CNAME
 
