@@ -107,3 +107,6 @@ footer {
     visibility: visible;
 }
 
+a:hover {
+    background-color: #ffad2dc4;
+}
