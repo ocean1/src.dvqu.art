@@ -11,6 +11,20 @@ h4, h5, h6 {
     font-family: 'Inconsolata', monospace;
 }
 
+h1::before, h2::before { 
+    content: "~";
+    color: #f77802;
+    font-size: larger;
+    margin-right: 0.4em;
+}
+
+h1::after {
+    content: "~";
+    color: #f77802;
+    font-size: larger;
+    margin-left: 0.4em;
+}
+
 .social {
     padding-left: 0.4em;
     padding-right: 0.4em;
