@@ -8,7 +8,7 @@ I served as a reviewer for several venues:
 
   + IEEE S&amp;P [student PC](https://www.ieee-security.org/TC/SP2018/studentpc.html) – 2018
   + IJIS – 2018
-  + Elsevier COSE – 2017, 2018
+  + Elsevier COSE – 2017, 2018 <div class="tooltip"><a class="fas fa-star" href="/s/pdfs/coseoutstanding.pdf"></a><span class="tooltiptext">Outstanding Reviewer Contribution, 2017</span></div>
   + CyberICPS – 2017
   + WISTP – 2015, 2017
   + EuroSec – 2015

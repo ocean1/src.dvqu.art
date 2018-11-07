@@ -19,7 +19,7 @@ PANOPTS="\
 
 METADATA="./metadata.yml"
 
-rm -rf $OUTDIR/*
+#rm -rf $OUTDIR/*
 
 replace_bib_link()
 {
@@ -70,7 +70,7 @@ find $INDIR -mindepth 2 -type f ! -name '.*' ! -path '*/diary/*' | \
         replace_bib_link "$DST" "$f"
     } || {
         echo "${f} -> $DST/$(basename ${f})"
-        cp "${f}" $DST/
+        rsync -r --delete "${f}" $DST/
     }
   done
 }
@@ -118,7 +118,7 @@ find $INDIR -type f -mindepth 3 ! -name '.*' -path '*/diary/*' | sort -r | \
             replace_bib_link "$DST" "$f"
         } || {
             echo "${f} -> $DST/$(basename ${f})"
-            cp "${f}" $DST/
+            rsync -r --delete "${f}" $DST/
         }
     done
 
@@ -157,18 +157,19 @@ process_index
 
 # Static files
 echo "[+] Processing static files..."
-cp -R $STATIC $OUTDIR/s
+rsync -r --delete $STATIC/ $OUTDIR/s/
+rsync -r --delete _data/pdfs $OUTDIR/s/
 
 # Build frontend kit
 echo "[+] Building frontend files..."
-mkdir $OUTDIR/s/{css,js}
+mkdir -p $OUTDIR/s/{css,js}
 #cp -R $NODE_MODULES/lato-font/fonts/* $OUTDIR/s/fonts/
 #cp -R $NODE_MODULES/font-awesome/fonts/* $OUTDIR/s/fonts/
 node node_modules/browserify/bin/cmd.js _src/js/app.js | node_modules/uglify-js/bin/uglifyjs -o $OUTDIR/s/js/app.js
 node_modules/clean-css-cli/bin/cleancss -o $OUTDIR/s/css/app.css _src/css/*.css
 
 # add favicon
-cp _data/favicon.ico $OUTDIR/
+rsync -r --delete _data/favicon.ico $OUTDIR/
 
 # add CNAME
 echo $CNAME > $OUTDIR/CNAME
