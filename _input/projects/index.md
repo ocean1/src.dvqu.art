@@ -34,9 +34,9 @@ AndroTotal is a free service to scan suspicious APKs against multiple mobile ant
 I play(ed) CTFs with several teams: TowerOfHanoi, Shellphish, and Mhackeroni.
 I co-organized PoliCTF 2015, and developed challenges for iCTF 2017, and 2018.
 
-  + [CTFsubmitter](https://github.com/TowerofHanoi/CTFsubmitter): a service for A/D CTFs, in order to submit flags and keep track of the status of attacks.
-  + [Gandgalf](https://github.com/ocean1/gandgalf): a challenge developed for PoliCTF 2015, features a custom executable packer, and floppy disk based copy protection.
-  + [Writeups](https://github.com/ocean1/writeups): a collection of writeups for different CTF challenges I solved.
+  + [CTFsubmitter](https://github.com/TowerofHanoi/CTFsubmitter): service for A/D CTFs> keep track, and submit flags from distributed attackers.
+  + [Gandgalf](https://github.com/ocean1/gandgalf): PoliCTF 2015 challenge> custom DOS executable packer, floppy disk copy protection, and steganography
+  + [Writeups](https://github.com/ocean1/writeups): Capture The Flag writeups
 
 ## Bugs&amp;Advisories
 TBD

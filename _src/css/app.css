@@ -60,4 +60,18 @@ header {
 nav {
     margin-top: 2%;
     margin-bottom: 2%;
+    font-size: 114%;
+}
+
+nav > i {
+    margin-left: 0.8em;
+    margin-right: 0.8em;
+}
+
+hr {
+    margin-top: 1.7em;
+}
+
+footer {
+    margin-bottom: 10%;
 }
