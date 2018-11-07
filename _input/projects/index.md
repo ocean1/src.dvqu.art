@@ -1,6 +1,6 @@
 ---
 title: Projects &amp; Activities
-bannerimg: large-fish.jpg
+bannerimg: kingdom-future.jpg
 ---
 
 ## Professional Activities

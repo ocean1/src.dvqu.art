@@ -1,6 +1,6 @@
 ---
 title: Davide Quarta
-bannerimg: b01.jpeg
+bannerimg: lonely-traveler.jpg
 bibliography: /dev/shm/publications.bib
 csl: \_style/csl/publications.csl
 mustache: contacts.yml
