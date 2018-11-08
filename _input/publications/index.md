@@ -18,11 +18,9 @@ csl: _style/csl/publications.csl
 [@valdi2015scalable]
 
 
-## Workshop Papers&amp;Posters <a class="fas fa-xs fa-book" href="/publications/workshops.bib"></a>
+## Workshop Papers <a class="fas fa-xs fa-book" href="/publications/workshops.bib"></a>
 
 [@marastoni2017groupdroid]
-
-[@quartaDACposter]
 
 
 ## Technical Reports <a class="fas fa-xs fa-book" href="/publications/reports.bib"></a>
