@@ -35,14 +35,8 @@ csl: _style/csl/publications.csl
 
 ## Talks <a class="fas fa-xs fa-book" href="/publications/talks.bib"></a>
 
-[@troopers_panel_2018]
+[@quarta_robosecTR_panel_2018]
 
-[@troopers_robot_2018]
+[@quarta_robosecTR_talk_2018]
 
 [@quarta_robosecbhus_talk_2017]
-
-[@robot_sp_2017]
-
-[@console_hack]
-
-[@smashing_stack_win8]
