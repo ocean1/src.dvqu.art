@@ -28,7 +28,7 @@ replace_bib_link()
 
     if grep -qE '^bibliography\:' ${f}
     then  # TODO find a better alternative to this ugly replacement
-      sed -E 's/(https\:\/\/github\.com\/phretor\/publications\/[^.]+\.pdf)/ [<a href="\1" class="download-pdf">PDF<\/a>]/g' \
+      sed -E 's/(https\:\/\/github\.com\/ocean1\/dvqu.art\/blob\/master\/s\/pdfs\/[^.]+\.pdf)/ [<a href="\1" class="download-pdf">PDF<\/a>]/g' \
         "$DST/index.html" > "$DST/.index.html"
       mv "$DST/.index.html" "$DST/index.html"
     fi
@@ -146,7 +146,7 @@ pandoc \
   -o $OUTDIR/index.html \
   $INDIR/index.md
 
-sed -E 's/(https\:\/\/github\.com\/phretor\/publications\/[^.]+\.pdf)/ [<a href="\1" class="download-pdf">PDF<\/a>]/g' \
+sed -E 's/(https\:\/\/github\.com\/ocean1\/publications\/[^.]+\.pdf)/ [<a href="\1" class="download-pdf">PDF<\/a>]/g' \
   $OUTDIR/index.html > $OUTDIR/.index.html
 mv $OUTDIR/.index.html $OUTDIR/index.html
 } 
