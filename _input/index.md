@@ -7,6 +7,7 @@ mustache: contacts.yml
 ---
 
 ## About me
+
 I am a Postdoctoral Researcher in the [System Security group](http://www.s3.eurecom.fr) at [Eurecom](http://www.eurecom.fr) working under the supervision of [Davide Balzarotti](http://s3.eurecom.fr/~balzarot/). I received my PhD from [Politecnico di Milano](https://www.polimi.it/) where I worked in the [NECSTLab](https://necst.it/) under the supervision of [Stefano Zanero](http://home.deib.polimi.it/zanero/) and [Federico Maggi](https://maggi.cc/). During this journey, I co-advised more than 10 students on their master thesis, and projects.
 I received my *Laurea Magistrale* in Software and Digital Systems, and *Laurea* from [Politecnico di Torino](https://www.polito.it/).
 
@@ -19,7 +20,7 @@ I love teaching: I worked as *TA* in basic programming, and computer security co
 I love Reverse Engineering in <a href="/projects/#rom-hacking">all of its forms</a>. I worked on mobile malware analysis as a *Research Assistant* in Politecnico di Milano, working on the <a href="https://andrototal.org">Andrototal</a> project. I also worked on windows malware analysis as a freelance consultant. 
 I love thinkering with things, understand how they work, and I believe that science should be reproducible, and accessible. These ideas and topic resonated with [Andrea Continella](https://conand.me/), and we started developing the <a href="projects/#crave">CrAVe</a> project in order to develop a deeper understanding of anti-malware solutions, and how they are impacted by evasive malware.
 My main topic as a PhD has been the security <a href="https://robosec.org">Smart manufacturing systems (Industrial Robots)</a> and more in general on the inherent security challenges posed by IoT and embedded systems at large.
-My current research interest lies at the intersection of these two topics, where we'll probably see more and more attacks being carried through embedded systems (e.g., Mirai, amplification attacks, etc.).
+My current research interest lies at the intersection of (automated) reverse engineering and vulnerability discovery, malware analysis in the context of Cyber-Physical systems, and (Industrial) IoT: a sweet spot where we'll probably see more and more attacks being carried through embedded systems (e.g., Mirai, amplification attacks, etc.).
 <hr />
 
 <div class="pure-g">
