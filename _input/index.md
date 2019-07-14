@@ -28,7 +28,7 @@ My current research interest lies at the intersection of (automated) reverse eng
 <div class="pure-u-1-1 pure-u-md-2-3">
 ## Highlights
 
-+ **2019** Happy, and honored to serve on the [USENIX WOOT '19 Artifact Evaluation Committee](https://www.usenix.org/conference/woot19/artifact-evaluation-information)!
++ **2019** Happy, and honored to serve on the<br/>[USENIX WOOT '19 Artifact Evaluation Committee](https://www.usenix.org/conference/woot19/artifact-evaluation-information)!
 + **2018** DarkReadings [interview](https://www.darkreading.com/vulnerabilities---threats/new-security-woes-for-popular-iot-protocols/d/d-id/1333069) about MQTT&amp;CoAP
 + **2018** MQTT&amp;CoAP security talk at [BHEU'18](https://www.blackhat.com/eu-18/briefings/schedule/index.html#when-machines-cant-talk-security-and-privacy-issues-of-machine-to-machine-data-protocols-12722)
 + **2018** Engineering intern at Qualcomm' QPSI! <p class="fas fa-xs fa-heart"></p>
