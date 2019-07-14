@@ -16,7 +16,7 @@ csl: _style/csl/publications.csl
 ## Journal Papers <a class="fas fa-xs fa-book" href="/publications/journals.bib"></a>
 
 [@valdi2015scalable]
-
+[@pogliani_article_2019]
 
 ## Workshop Papers <a class="fas fa-xs fa-book" href="/publications/workshops.bib"></a>
 
