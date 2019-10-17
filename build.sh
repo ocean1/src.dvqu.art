@@ -79,7 +79,7 @@ find $INDIR -mindepth 2 -type f ! -name '.*' ! -path '*/diary/*' | \
 process_diary()
 {
 echo "[+] Processing diary..."
-rm $INDIR/diary/index.md
+#rm $INDIR/diary/index.md
 find $INDIR -type f -mindepth 3 ! -name '.*' -path '*/diary/*' | sort -r | \
     while read f
     do
@@ -153,6 +153,7 @@ mv $OUTDIR/.index.html $OUTDIR/index.html
 
 
 process_sections
+process_diary
 process_index
 
 # Static files

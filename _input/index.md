@@ -1,6 +1,6 @@
 ---
 title: Davide Quarta
-bannerimg: lonely-traveler.jpg
+bannerimg: acrobat.jpg
 bibliography: /dev/shm/publications.bib
 csl: \_style/csl/publications.csl
 mustache: contacts.yml
@@ -28,12 +28,13 @@ My current research interest lies at the intersection of (automated) reverse eng
 <div class="pure-u-1-1 pure-u-md-2-3">
 ## Highlights
 
++ **2019** Invited talk on ICS security at <br/>[Forum ICT Security 2019](https://www.ictsecuritymagazine.com/eventi/forum_ict_security_2019/convegni/16_ottobre_2019)!
 + **2019** Happy, and honored to serve on the<br/>[USENIX WOOT '19 Artifact Evaluation Committee](https://www.usenix.org/conference/woot19/artifact-evaluation-information)!
 + **2018** DarkReadings [interview](https://www.darkreading.com/vulnerabilities---threats/new-security-woes-for-popular-iot-protocols/d/d-id/1333069) about MQTT&amp;CoAP
 + **2018** MQTT&amp;CoAP security talk at [BHEU'18](https://www.blackhat.com/eu-18/briefings/schedule/index.html#when-machines-cant-talk-security-and-privacy-issues-of-machine-to-machine-data-protocols-12722)
 + **2018** Engineering intern at Qualcomm' QPSI! <p class="fas fa-xs fa-heart"></p>
-+ **2018** [Crave](/projects/#crave) and [ELISA](https://link.springer.com/chapter/10.1007/978-3-319-93411-2_16) accepted \@DIMVA'18!
-<!-- + **2018** invited [talk](https://www.troopers.de/troopers18/agenda/yxzlz7/) and [panel](https://www.troopers.de/troopers18/agenda/bgsj3x/) on *robots* at Troopers'18
+<!-- + **2018** [Crave](/projects/#crave) and [ELISA](https://link.springer.com/chapter/10.1007/978-3-319-93411-2_16) accepted \@DIMVA'18!
++ **2018** invited [talk](https://www.troopers.de/troopers18/agenda/yxzlz7/) and [panel](https://www.troopers.de/troopers18/agenda/bgsj3x/) on *robots* at Troopers'18
  + **2017** [paper](https://robosec.org) on industrial robot security accepted at IEEE S&amp;P'17-->
 
 </div>
