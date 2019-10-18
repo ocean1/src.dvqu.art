@@ -35,9 +35,7 @@
                 <img class="headerimg" src="/s/i/$bannerimg$"></img>
             </div>
           $endif$
-          <div class="twelve columns">
-            <h1 class="text-center pale">$title$</h1>
-          </div>
+
 
           <div class="row" >
             <nav class="text-center">
@@ -54,6 +52,12 @@
           </div>
         </div>
       </header>
+
+          $if(title)$
+          <div class="text-center twelve columns">
+            <h1 class="pale">$title$</h1>
+          </div>
+          $endif$
 
       $for(include-before)$
       $include-before$

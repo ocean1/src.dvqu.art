@@ -3,7 +3,6 @@ title: Projects &amp; Activities
 bannerimg: kingdom-future.jpg
 ---
 
-## Professional Activities
 I co-advised several Master theses, and Bachelor student projects, and served as a reviewer for the following venues:
 
   + IEEE S&amp;P [student PC](https://www.ieee-security.org/TC/SP2018/studentpc.html) – 2018
